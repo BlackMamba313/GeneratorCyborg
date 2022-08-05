@@ -1,0 +1,15 @@
+@import url(../vendor/normalize.css);
+@import url(blocks/body/body.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(blocks/header/header.css);
+@import url(blocks/header/__logo/header__logo.css);
+@import url(blocks/header/__title/header__title.css);
+@import url(blocks/footer/footer.css);
+@import url(blocks/footer/__copyright/footer__copyright.css);
+@import url(blocks/terminal/__ofline/terminal__ofline.css);
+@import url(blocks/form/__input/form__input.css);
+@import url(blocks/form/__btn/form__btn.css);
+@import url(blocks/cyborg/__avatar/cyborg__avatar.css);
+@import url(blocks/cyborg/__text/cyborg__text.css);
+@import url(blocks/cyborg/cyborg.css);
+@import url(simplePagination.css);

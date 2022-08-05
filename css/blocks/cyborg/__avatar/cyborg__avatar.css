@@ -1,0 +1,6 @@
+.cyborg__avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 0.5px solid rgba(110, 255, 110);
+}

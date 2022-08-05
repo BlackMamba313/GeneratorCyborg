@@ -1,0 +1,18 @@
+.form__btn {
+    border: none;
+    border-bottom: 1px solid rgba(110, 255, 110);
+    color: rgba(110, 255, 110);
+    border-radius: 0;
+    background: transparent;
+    outline: none;
+}
+
+.form__btn:hover {
+    background: transparent;
+    color: rgba(110, 255, 110, 60);
+}
+
+.form__btn:focus {
+    background: transparent;
+    color: rgba(110, 255, 110, 60);
+}

@@ -1,0 +1,12 @@
+.terminal__ofline {
+    margin: 20px auto;
+    width: 880px;
+    height: 880px;
+}
+
+@media screen and (max-width: 880px) {
+    .terminal__ofline {
+        width: 770px;
+        height: 770px;
+    }
+}
