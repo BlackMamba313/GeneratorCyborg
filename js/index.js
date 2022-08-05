@@ -2,9 +2,9 @@
  class Cyborg {
      constructor({ data, cyborgSelector }) {
          this._name = `${data.name.first} ${data.name.last}`;
-         this._model = `${data.id.name} ${data.id.value}`;
-         this._gender = `gender: ${data.gender}`;
-         this._age = `age: ${data.registered.age}`;
+         this._model = `Model: ${data.id.name} ${data.id.value}`;
+         this._gender = `Gender: ${data.gender}`;
+         this._age = `Age: ${data.registered.age}`;
          this._Location = `Location: ${data.location.city}. ${data.location.country}`;
          this._point = `Access point: ${data.email}`;
          this._password = `Access password: ${data.login.password}`;
