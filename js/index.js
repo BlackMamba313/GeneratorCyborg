@@ -13,8 +13,9 @@
      }
 
      _getTemplate() {
-         const cyborgElement = $(this._cyborgSelector)
-             .content.$('.cyborg')
+         const cyborgElement = document
+             .querySelector(this._cyborgSelector)
+             .content.querySelector('.cyborg')
              .cloneNode(true);
          return cyborgElement;
      }
@@ -22,14 +23,14 @@
 
      generateCyborg() {
          this._element = this._getTemplate();
-         this._cyborgAvatar = this._element.$('.cyborg__avatar');
-         this._cyborgName = this._element.$('.name');
-         this._cyborgModel = this._element.$('.model');
-         this._cyborgGender = this._element.$('.gender');
-         this._cyborgAge = this._element.$('.age');
-         this._cyborgLocation = this._element.$('.location');
-         this._cyborgAccessPoint = this._element.$('.point');
-         this._cyborgAccessPassword = this._element.$('.password');
+         this._cyborgAvatar = this._element.querySelector('.cyborg__avatar');
+         this._cyborgName = this._element.querySelector('.name');
+         this._cyborgModel = this._element.querySelector('.model');
+         this._cyborgGender = this._element.querySelector('.gender');
+         this._cyborgAge = this._element.querySelector('.age');
+         this._cyborgLocation = this._element.querySelector('.location');
+         this._cyborgAccessPoint = this._element.querySelector('.point');
+         this._cyborgAccessPassword = this._element.querySelector('.password');
          this._cyborgAvatar.src = this._link;
          this._cyborgAvatar.alt = this._name;
          this._cyborgName.textContent = this._name;
